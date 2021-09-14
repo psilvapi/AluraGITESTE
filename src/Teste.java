@@ -3,7 +3,7 @@ public class Teste {
 		
 		public static void main(String[] args) {
 		
-			String myFirstTet = "23";
+			String myFirstTet = "25";
 			
 			if(myFirstTet.equals("123")) {
 				System.out.println("ACESSO CONCEDIDO");
