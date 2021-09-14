@@ -1,0 +1,149 @@
+[33mcommit 17b2dc1542f0fad430c1fb98ccb422d7276e4b0e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Pedro Silva Pimentel <psilvapi@everis.com>
+Date:   Tue Sep 14 10:03:03 2021 -0300
+
+    atualizacao do c√≥digo
+
+[1mdiff --git a/bin/.gitignore b/bin/.gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..4c38f30[m
+[1m--- /dev/null[m
+[1m+++ b/bin/.gitignore[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32m/AluraTeste.class[m
+[32m+[m[32m/Teste.class[m
+[1mdiff --git a/bin/Teste.class b/bin/Teste.class[m
+[1mindex 66c8a11..8e52c86 100644[m
+Binary files a/bin/Teste.class and b/bin/Teste.class differ
+[1mdiff --git a/src/Teste.java b/src/Teste.java[m
+[1mindex 29914c3..6800c8b 100644[m
+[1m--- a/src/Teste.java[m
+[1m+++ b/src/Teste.java[m
+[36m@@ -3,7 +3,7 @@[m [mpublic class Teste {[m
+ 		[m
+ 		public static void main(String[] args) {[m
+ 		[m
+[31m-			String myFirstTet = "23";[m
+[32m+[m			[32mString myFirstTet = "25";[m
+ 			[m
+ 			if(myFirstTet.equals("123")) {[m
+ 				System.out.println("ACESSO CONCEDIDO");[m
+
+[33mcommit 5b53bd587001d9a3ab50a9013d4a4ddb785f18d2[m
+Author: Pedro Silva Pimentel <psilvapi@everis.com>
+Date:   Tue Sep 14 09:58:52 2021 -0300
+
+    Criando primeiro repositorio no git
+
+[1mdiff --git a/.classpath b/.classpath[m
+[1mnew file mode 100644[m
+[1mindex 0000000..adeb0a3[m
+[1m--- /dev/null[m
+[1m+++ b/.classpath[m
+[36m@@ -0,0 +1,10 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<classpath>[m
+[32m+[m	[32m<classpathentry kind="src" path="src"/>[m
+[32m+[m	[32m<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">[m
+[32m+[m		[32m<attributes>[m
+[32m+[m			[32m<attribute name="module" value="true"/>[m
+[32m+[m		[32m</attributes>[m
+[32m+[m	[32m</classpathentry>[m
+[32m+[m	[32m<classpathentry kind="output" path="bin"/>[m
+[32m+[m[32m</classpath>[m
+[1mdiff --git a/.project b/.project[m
+[1mnew file mode 100644[m
+[1mindex 0000000..8ea8c15[m
+[1m--- /dev/null[m
+[1m+++ b/.project[m
+[36m@@ -0,0 +1,17 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<projectDescription>[m
+[32m+[m	[32m<name>AluraTeste</name>[m
+[32m+[m	[32m<comment></comment>[m
+[32m+[m	[32m<projects>[m
+[32m+[m	[32m</projects>[m
+[32m+[m	[32m<buildSpec>[m
+[32m+[m		[32m<buildCommand>[m
+[32m+[m			[32m<name>org.eclipse.jdt.core.javabuilder</name>[m
+[32m+[m			[32m<arguments>[m
+[32m+[m			[32m</arguments>[m
+[32m+[m		[32m</buildCommand>[m
+[32m+[m	[32m</buildSpec>[m
+[32m+[m	[32m<natures>[m
+[32m+[m		[32m<nature>org.eclipse.jdt.core.javanature</nature>[m
+[32m+[m	[32m</natures>[m
+[32m+[m[32m</projectDescription>[m
+[1mdiff --git a/bin/AluraTeste.class b/bin/AluraTeste.class[m
+[1mnew file mode 100644[m
+[1mindex 0000000..d5be276[m
+Binary files /dev/null and b/bin/AluraTeste.class differ
+[1mdiff --git a/bin/Teste.class b/bin/Teste.class[m
+[1mnew file mode 100644[m
+[1mindex 0000000..66c8a11[m
+Binary files /dev/null and b/bin/Teste.class differ
+[1mdiff --git a/src/Teste.java b/src/Teste.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..29914c3[m
+[1m--- /dev/null[m
+[1m+++ b/src/Teste.java[m
+[36m@@ -0,0 +1,27 @@[m
+[32m+[m
+[32m+[m[32mpublic class Teste {[m
+[32m+[m[41m		[m
+[32m+[m		[32mpublic static void main(String[] args) {[m
+[32m+[m[41m		[m
+[32m+[m			[32mString myFirstTet = "23";[m
+[32m+[m[41m			[m
+[32m+[m			[32mif(myFirstTet.equals("123")) {[m
+[32m+[m				[32mSystem.out.println("ACESSO CONCEDIDO");[m
+[32m+[m[41m				[m
+[32m+[m[41m			[m
+[32m+[m			[32m}else if(!myFirstTet.equals("123")){[m
+[32m+[m				[32mSystem.out.println("ACESSO NEGADO");[m
+[32m+[m			[32m}[m
+[32m+[m[41m			[m
+[32m+[m			[32mfor(int i = 0; i <=10; i++) {[m
+[32m+[m				[32mif(myFirstTet.equals("123")){[m
+[32m+[m					[32mSystem.out.println("A sua senha È " + myFirstTet);[m
+[32m+[m				[32m}else {[m
+[32m+[m					[32mSystem.out.println("A sua senha n„o existe");[m
+[32m+[m				[32m}[m
+[32m+[m			[32m}[m
+[32m+[m
+[32m+[m		[32m}[m
+[32m+[m[41m		[m
+[32m+[m[41m		[m
+[32m+[m	[32m}[m
+[1mdiff --git a/src/module-info.java b/src/module-info.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f30df80[m
+[1m--- /dev/null[m
+[1m+++ b/src/module-info.java[m
+[36m@@ -0,0 +1,26 @@[m
+[32m+[m[32mpublic class AluraTeste {[m
+[32m+[m[41m		[m
+[32m+[m		[32mpublic static void main(String[] args) {[m
+[32m+[m[41m		[m
+[32m+[m			[32mString myFirstTet = "23";[m
+[32m+[m[41m			[m
+[32m+[m			[32mif(myFirstTet.equals("123")) {[m
+[32m+[m				[32mSystem.out.println("ACESSO CONCEDIDO");[m
+[32m+[m[41m				[m
+[32m+[m[41m			[m
+[32m+[m			[32m}else if(!myFirstTet.equals("123")){[m
+[32m+[m				[32mSystem.out.println("ACESSO NEGADO");[m
+[32m+[m			[32m}[m
+[32m+[m[41m			[m
+[32m+[m			[32mfor(int i = 0; i <=10; i++) {[m
+[32m+[m				[32mif(myFirstTet.equals("123")){[m
+[32m+[m					[32mSystem.out.println("A sua senha È " + myFirstTet);[m
+[32m+[m				[32m}else {[m
+[32m+[m					[32mSystem.out.println("A sua senha n„o existe");[m
+[32m+[m				[32m}[m
+[32m+[m			[32m}[m
+[32m+[m
+[32m+[m		[32m}[m
+[32m+[m[41m		[m
+[32m+[m[41m		[m
+[32m+[m	[32m}[m

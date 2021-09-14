@@ -5,7 +5,7 @@ public class Teste {
 		
 			String myFirstTet = "25";
 			
-			if(myFirstTet.equals("123")) {
+			if(myFirstTet.equals("25")) {
 				System.out.println("ACESSO CONCEDIDO");
 				
 			
